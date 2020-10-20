@@ -5,7 +5,7 @@ A DotNetcore example code on how to send data to the custom analytics schema usi
 ## Steps: 
 1. Clone this repo
 2. Create your schema
-3. Update the following variables: 
+3. Update the following variables in Program.cs. It's recommended you read these values from a property file in the real implementation. 
 
      ```
      var appd_key = "KEY";
