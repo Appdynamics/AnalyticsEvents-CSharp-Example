@@ -16,7 +16,8 @@ A DotNetcore example code on how to send data to the custom analytics schema usi
  3. Build and run 
  
 # Expected output
- 
+
+```
 ########## Request Header ##########
 Date: Tue, 20 Oct 2020 11:25:54 GMT
 Frame-Options: DENY
@@ -32,7 +33,7 @@ OK
 ####################################
 Successfully sent custom data to AppD 
 [ {"price":100.0,"amount":80,"assets":"Mr.IO","order_date":"2020-10-20T11:25:52.729363Z","subscribers":20}]
+```
 
-
-## Reference 
+# Reference 
 https://docs.appdynamics.com/display/PRO45/Analytics+Events+API
