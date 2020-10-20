@@ -6,10 +6,13 @@ A DotNetcore example code on how to send data to the custom analytics schema usi
 1. Clone this repo
 2. Create your schema
 3. Update the following variables: 
+
+     ```
      var appd_key = "KEY";
      var appd_account_name = "AccountName";
      var app_schema = "analytics_orders";
      var analytics_endpoint = "https://fra-ana-api.saas.appdynamics.com/events/publish/";
+     ````
  3. Build and run 
  
 # Expected output
